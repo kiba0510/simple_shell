@@ -10,7 +10,7 @@ In this project, we create a ***simple shell*** that must have the same behavior
 
 ## Resourses :books:
 
-## How To Start :wrenchandhammer:
+## How To Start :hammerandwrench:
 
 ## How To Use :computer:
 
