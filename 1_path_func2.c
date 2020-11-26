@@ -36,7 +36,7 @@ token_s *addnode(token_s **head, char *str, int mlloc)
  * @head: head node
  */
 void free_list(token_s **head)
-{/*Pointer for free */
+{	/*Pointer for free */
 	token_s *ptr = NULL;
 
 	while (head && *head)
@@ -48,6 +48,7 @@ void free_list(token_s **head)
 		free(ptr);
 	}
 }
+
 /**
  * print_token -  prints all the elements of a list_t list
  * @s_token: head of constant list_t being counted

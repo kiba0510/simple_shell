@@ -3,8 +3,9 @@
 
 #include "0_principal_header.h"
 
-/*----- Prototypes -----*/
-
+/* ----------------------------*/
+/* ---------Prototypes---------*/
+/* ----------------------------*/
 int _strlen(char *s);
 char *_strdup(char *str);
 char *_strcpy(char *dest, char *src);

@@ -3,7 +3,9 @@
 
 #include "0_principal_header.h"
 
-/*----- Prototypes-----*/
+/* --------------------------- */
+/*--------- Prototypes---------*/
+/* --------------------------- */
 void print_error(var_s *vars);
 void notfound(var_s *vars);
 void notaccess(var_s *vars);
