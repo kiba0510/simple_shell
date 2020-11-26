@@ -10,21 +10,20 @@ In this project, we create a ***simple shell*** that must have the same behavior
 
 ## How To Start :hammer_and_wrench:
 1. Clone the repo:
-$ git clone 
-
+```$ git clone https://github.com/kiba0510/simple_shell```
 2. Compile the file with:
-$ gcc -Wall -Werror -Wextra -pedantic *.c -o simple_shell
+```$ gcc -Wall -Werror -Wextra -pedantic *.c -o simple_shell```
 
 3. Execute it with:
-$ ./simple_shell
+```$ ./simple_shell```
 
 ## How To Use :computer:
 In ***INTERACTIVE MODE***:
 $ <command> <flags> <argument>
   - Ex:
-  $ echo Hello World!
+  ```$ echo Hello World! ```
   - Output:
-  Hello World!
+  ```Hello World! ```
   
 In ***NON-INTERACTIVE MODE***
 $ echo <commands and arguments> | ./simple_shell
@@ -40,3 +39,8 @@ $ echo <commands and arguments> | ./simple_shell
   ```
 
 ## Commands 
+***Command*** | ***Description***
+--------------|-------------------
+     exit     |   Exit Program
+--------------|-------------------
+     env      | Display Enviroment Variables
