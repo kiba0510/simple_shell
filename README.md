@@ -38,7 +38,9 @@ $ <command> <flags> <argument>
   ```
   
 In ***NON-INTERACTIVE MODE***
+```
 $ echo <commands and arguments> | ./simple_shell
+```
   - Ex: 
   ```
   $ echo "ls -l" | ./simple_shell
