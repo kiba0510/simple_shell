@@ -3,6 +3,7 @@
 
 #include "0_principal_header.h"
 
+
 /**
  * struct find_command - Struct for build in commands
  * @fc: Build in alias
@@ -14,8 +15,9 @@ typedef struct find_command
 	int (*f)(var_s *vars);
 } find_command_t;
 
-/*-----Prototypes-----*/
-
+/* ----------------------------*/
+/* ------Prototypes----------- */
+/* ----------------------------*/
 void InicializadorTokenizar(var_s *vars);
 int _pipes(var_s *vars);
 int _executes(var_s *vars);
