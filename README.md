@@ -45,8 +45,10 @@ $ echo <commands and arguments> | ./simple_shell
   ```
 
 ## Commands 
-***Command***               ***Description***
-     exit         Exit Program
-     env          Display Enviroment Variables
-    setenv        Set environment variable value or create a new one
-   unsetenv       Delete environment variable
+***Command*** | ***Description***
+------------ | -------------
+exit | Exits Program
+env | Display environment variables
+setenv | Set environment variable value or create a new one
+unsetenv | Delete environment variable
+
