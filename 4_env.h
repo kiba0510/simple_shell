@@ -3,8 +3,9 @@
 
 #include "0_principal_header.h"
 
-/*-----Prototypes-----*/
-
+/* ----------------------------*/
+/*-------- Prototypes--------- */
+/* ----------------------------*/
 token_s *_start_env(void);
 char *_getenv(char *name, var_s *vars);
 int PrintEnviroment(var_s *vars);
