@@ -25,11 +25,17 @@ $ ./simple_shell
 
 ## How To Use :computer:
 In ***INTERACTIVE MODE***:
+```
 $ <command> <flags> <argument>
-  - Ex:
-  ```$ echo Hello World! ```
+```
+- Ex:
+  ```
+  $ echo Hello World! 
+  ```
   - Output:
-  ```Hello World! ```
+  ```
+  Hello World! 
+  ```
   
 In ***NON-INTERACTIVE MODE***
 $ echo <commands and arguments> | ./simple_shell
@@ -52,3 +58,16 @@ env | Display environment variables
 setenv | Set environment variable value or create a new one
 unsetenv | Delete environment variable
 
+## How To Use :computer:
+- ***setenv***
+```
+$ setenv <MYVAR> <myvalue>
+```
+- ***unsetenv***
+```
+$ unsetenv <MYVAR>
+```
+- ***env***
+```
+$ env
+```
