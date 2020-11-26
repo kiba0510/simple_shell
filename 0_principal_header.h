@@ -1,7 +1,9 @@
 #ifndef SHELL_H
 #define SHELL_H
 
-/*-----Libraries-----*/
+/* --------------------------- */
+/*-------- Libraries ----------*/
+/*---------------------------- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -13,7 +15,9 @@
 #include <dirent.h>
 #include <limits.h>
 
-/*-----Headers-----*/
+/* ----------------------------*/
+/*---------- Headers ----------*/
+/* --------------------------- */
 #include "1_path_func.h"
 #include "2_aux.h"
 #include "3_vars.h"
@@ -22,7 +26,8 @@
 #include "6_error.h"
 #include "7_help.h"
 
-/*-----print enviroment variables-----*/
-extern char **environt
+
+/* Imprimir variables de entorno */
+extern char **environ;
 
 #endif

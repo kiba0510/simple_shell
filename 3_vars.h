@@ -29,7 +29,9 @@ typedef struct variables
 	int status;
 	char *err_msm;
 } var_s;
-/* -----Prototypes----- */
+/* ----------------------------*/
+/* ----------Prototypes------- */
+/* ----------------------------*/
 void InicializadorShell(var_s *vars, char *av, int *cnt);
 
 #endif
