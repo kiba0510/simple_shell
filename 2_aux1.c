@@ -74,21 +74,6 @@ char *_strcat(char *dest, char *src)
 	return (dest);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * _strcmp - compares the two strings s1 and s2
  * @s1: string 1
